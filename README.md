@@ -2,51 +2,55 @@
 
 [![Build status](https://dev.azure.com/github/Atom/_apis/build/status/Atom%20Production%20Branches?branchName=master)](https://dev.azure.com/github/Atom/_build/latest?definitionId=32&branchName=master)
 
-> Atom and all repositories under Atom will be archived on December 15, 2022. Learn more in our [official announcement](https://github.blog/2022-06-08-sunsetting-atom/)
+> Atom 및 Atom 관련 모든 리포지토리는 2022년 12월 15일에 보관됩니다. [공식 발표](https://github.blog/2022-06-08-sunsetting-atom/)에서 자세히 알아보세요.
 
-Atom is a hackable text editor for the 21st century, built on [Electron](https://github.com/electron/electron), and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.
+Atom은  [Electron](https://github.com/electron/electron)에 기반하고, 좋아하는 편집기들에서 우리가 사랑하는 모든것에 기반한 21세기 해킹가능한 텍스트 편집기 입니다. 우리는 사용자 정의가능 하도록 설계 했습니다, 그러나 여전히 기본 설정을 사용하여 접근 가능 합니다. 
+
 
 ![Atom](https://user-images.githubusercontent.com/378023/49132477-f4b77680-f31f-11e8-8357-ac6491761c6c.png)
 
 ![Atom Screenshot](https://user-images.githubusercontent.com/378023/49132478-f4b77680-f31f-11e8-9e10-e8454d8d9b7e.png)
 
-Visit [atom.io](https://atom.io) to learn more or visit the [Atom forum](https://github.com/atom/atom/discussions).
+좀 더 배우기 위해서 [atom.io](https://atom.io) 또는  [Atom 게시판에](https://github.com/atom/atom/discussions)에 방문하십시오.
 
-Follow [@AtomEditor](https://twitter.com/atomeditor) on Twitter for important
-announcements.
+중요한 공지를 요해서 트위터의 [@AtomEditor](https://twitter.com/atomeditor)를 팔로우 하십시오.
 
-This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).
-By participating, you are expected to uphold this code. Please report unacceptable behavior to atom@github.com.
 
-## Documentation
+이 프로젝트는 기여자 서약[행동 강령](CODE_OF_CONDUCT.md)을 준수합니다.
 
-If you want to read about using Atom or developing packages in Atom, the [Atom Flight Manual](https://flight-manual.atom.io) is free and available online. You can find the source to the manual in [atom/flight-manual.atom.io](https://github.com/atom/flight-manual.atom.io).
+참여시에 귀하는 규칙을 지킬것으로 생각 됩니다. 지켜 지지 않는 경우 atom@github.com 으로 연락 주십시오.
 
-The [API reference](https://atom.io/docs/api) for developing packages is also documented on Atom.io.
+## 문서화
 
-## Installing
+당신이 Atom 사용하는 것이나, 아톱에서 개발 패키지를 개발 하는 것에 관한 것을 일고 싶다면, [Atom 비행 매뉴얼](https://flight-manual.atom.io)은 무료이고, 온라인상에서 가능하다. 당신은 [atom/flight-manual.atom.io](https://github.com/atom/flight-manual.atom.io)에서 매뉴얼을 위한 소스를 찾을 수 있다. 
 
-### Prerequisites
+개발 패키지를 위한 [API 참조](https://atom.io/docs/api)는 역시 Atom.io에 문서화 했다.
+
+## 설치
+
+### 필요한 것들
 - [Git](https://git-scm.com)
 
-### macOS
+### 맥OS
 
-Download the latest [Atom release](https://github.com/atom/atom/releases/latest).
-
-Atom will automatically update when a new release is available.
-
-### Windows
-
-Download the latest [Atom installer](https://github.com/atom/atom/releases/latest). `AtomSetup.exe` is 32-bit. For 64-bit systems, download `AtomSetup-x64.exe`.
+최신버전을 다운로드 하십시오. [Atom 배포](https://github.com/atom/atom/releases/latest).
 
 Atom will automatically update when a new release is available.
 
-You can also download `atom-windows.zip` (32-bit) or `atom-x64-windows.zip` (64-bit) from the [releases page](https://github.com/atom/atom/releases/latest).
-The `.zip` version will not automatically update.
+아톰은 새 배포가 가능 할때 자동으로 업데이트 될 것입니다. 
 
-Using [Chocolatey](https://chocolatey.org)? Run `cinst Atom` to install the latest version of Atom.
+### 윈도우즈
 
-### Linux
+최신버전을 다운로드 하십시오. [Atom 설치관리자](https://github.com/atom/atom/releases/latest). `AtomSetup.exe`는 32비트용 입니다. 64비트 시스템은 `AtomSetup-x64.exe`을 다운로드 하십시오.
+
+아톰은 새 배포가 가능 할때 자동으로 업데이트 될 것입니다. 
+
+당신은 [배포 페이지](https://github.com/atom/atom/releases/latest)에서  `atom-windows.zip` (32-bit) 또는 `atom-x64-windows.zip` (64-bit)도 다운로드 할 수 있습니다.
+`.zip` 버전은 자동 업데이트를 제공하지 않는다. 
+
+[Chocolatey](https://chocolatey.org)를 이용하십니까? Atom의 최신 버전을 설치하기 위해서 `cinst Atom`를 실행 하십시오.
+
+### 리눅스
 
 Atom is only available for 64-bit Linux systems.
 
