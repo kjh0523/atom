@@ -52,11 +52,11 @@ Atom will automatically update when a new release is available.
 
 ### 리눅스
 
-Atom is only available for 64-bit Linux systems.
+Atom 은 리눅스 시스템에서 64비트만 가능 합니다. 
 
 Configure your distribution's package manager to install and update Atom by following the [Linux installation instructions](https://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-linux) in the Flight Manual.  You will also find instructions on how to install Atom's official Linux packages without using a package repository, though you will not get automatic updates after installing Atom this way.
 
-#### Archive extraction
+#### 아카이브 추출 / Archive extraction
 
 An archive is available for people who don't want to install `atom` as root.
 
@@ -71,21 +71,20 @@ sudo apt install git libasound2 libcurl4 libgbm1 libgcrypt20 libgtk-3-0 libnotif
 3. Run `tar xf atom-amd64.tar.gz` in the directory where you want to extract the Atom folder.
 4. Launch Atom using the installed `atom` command from the newly extracted directory.
 
-The Linux version does not currently automatically update so you will need to
-repeat these steps to upgrade to future releases.
+리눅스 버전은 자동 업데이트를 지원하지 않기 때문에 새 버전에서도 동일 작업을 반복 해야 합니다. 
 
-## Building
+## 컴파일(배포파일 만들기)
 
-* [Linux](https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/#platform-linux)
-* [macOS](https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/#platform-mac)
-* [Windows](https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/#platform-windows)
+* [리눅스](https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/#platform-linux)
+* [맥OS](https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/#platform-mac)
+* [윈도우즈](https://flight-manual.atom.io/hacking-atom/sections/hacking-on-atom-core/#platform-windows)
 
-## Discussion
+## 토론
 
-* Discuss Atom on [GitHub Discussions](https://github.com/atom/atom/discussions)
+* [GitHub 토론](https://github.com/atom/atom/discussions)에서 에톰을 이야기 하십시오.
 
-## License
+## 라이센스
 
 [MIT](https://github.com/atom/atom/blob/master/LICENSE.md)
 
-When using the Atom or other GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).
+아톰 또는 Github 로고들을 사용할때는 [GitHub 로고 가이드](https://github.com/logos)를 따라 주십시오.
